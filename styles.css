@@ -3,7 +3,18 @@
 	height: auto;
 	opacity: 100;
 }
-/* Making a picture opaque and a background*/
+html {
+	background-image: url("Background2.jpg");
+	background-size: cover; /* Will cover page no matter how big the window is. */
+	background-position: fixed;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	min-width: 100%;
+	top: 0;
+	bottom: 0;
+	background-attachment: fixed;
+}
+/* Making a picture opaque and a background
 
 #background {
 	opacity: .45;
@@ -16,3 +27,4 @@
 	right: 0;
 	z-index: -1;
 }
+*/
