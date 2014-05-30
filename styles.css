@@ -1,0 +1,18 @@
+.icons {
+	width: 50%;
+	height: auto;
+	opacity: 100;
+}
+/* Making a picture opaque and a background*/
+
+#background {
+	opacity: .45;
+	height: 200px;
+	width: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
