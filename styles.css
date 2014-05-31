@@ -1,20 +1,30 @@
 /* This styles the content of my page */
 body {
 	text-align: center;
-	padding-top: 10%
+	padding-top: 20%
+	font-fanily: ;
 }
 
 /* This creates a boarder around my text */
-#text {
-	
-	border: 2px solid;
+#border {
+	border: 1px solid;
 	border-radius: 25px;
+	/* box-shadow: 5px 5px 10px 5px; -----Not keeping this feature. This part of the code creates a shadow around the box */
+	width: 30%;
+	height: auto;
+	padding: 20px;
 	background: rgba(0, 0, 0, 0.45); /* This makes the background opaque */
+	margin: center;
+	position: relative;
+	border-top: center;
+	border-left: center;
+	border-bottom: center;
+	border-right: center;
 }
 
 /* I don't know if this is doing anything */
-body div a #icons {
-	position: absolute;
+#icons {
+	position: relative;
 	border-top: center;
 	border-left: center;
 	border-bottom: center;
