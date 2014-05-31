@@ -2,11 +2,14 @@
 body {
 	text-align: center;
 	padding-top: 10%
-	
+}
+div {
+	border: 2px solid;
+	border-radius: 25px;
 }
 
 }
-.icons {
+body div a #icons {
 	position: absolute;
 	border-top: center;
 	border-left: center;
@@ -25,6 +28,8 @@ html {
 	bottom: 0;
 	background-attachment: fixed;
 }
+
+
 /* Making a picture opaque and a background
 
 #background {
