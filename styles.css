@@ -1,7 +1,11 @@
-.icons {
-	width: 50%;
-	height: auto;
-	opacity: 100;
+/* Trying to reposition the icons. So far... no lock */
+.#icons {
+	position: absolute;
+	border-top: center;
+	border-left: center;
+	border-bottom: center;
+	border-right: center;
+
 }
 html {
 	background-image: url("Background2.jpg");
