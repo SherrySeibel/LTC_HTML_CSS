@@ -1,5 +1,12 @@
 /* Trying to reposition the icons. So far... no lock */
-.#icons {
+body {
+	text-align: center;
+	padding-top: 10%
+	
+}
+
+}
+.icons {
 	position: absolute;
 	border-top: center;
 	border-left: center;
