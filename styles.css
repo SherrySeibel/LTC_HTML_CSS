@@ -1,14 +1,18 @@
-/* Trying to reposition the icons. So far... no lock */
+/* This styles the content of my page */
 body {
 	text-align: center;
 	padding-top: 10%
 }
-div {
+
+/* This creates a boarder around my text */
+#text {
+	
 	border: 2px solid;
 	border-radius: 25px;
+	background: rgba(0, 0, 0, 0.45); /* This makes the background opaque */
 }
 
-}
+/* I don't know if this is doing anything */
 body div a #icons {
 	position: absolute;
 	border-top: center;
@@ -17,6 +21,8 @@ body div a #icons {
 	border-right: center;
 
 }
+
+/*This is setting up the background image for the entire web page*/
 html {
 	background-image: url("Background2.jpg");
 	background-size: cover; /* Will cover page no matter how big the window is. */
@@ -30,7 +36,7 @@ html {
 }
 
 
-/* Making a picture opaque and a background
+/* Making a picture opaque and a background -- no longer relevant 
 
 #background {
 	opacity: .45;
