@@ -1,26 +1,20 @@
-
-/*Trying to add a specific font but am having trouble...*/
-@font-face {
-  	font-family: 'MyWebFont';
-  	src: url("//fonts.googleapis.com/css?family=Gloria+Hallelujah:400");
-}
-
 /* This styles the content of my page */
 body {
 	text-align: center;
 	padding-top: 20%
-	font-family: "MyWebFont";
+	font-family: 'Gloria Hallelujah', cursive;
 	position: relative;
 	left: 33%;
-	top: 15%;
+	top: 5%;
 }
 
-h2 {
-	font-family: 'MyWebFont';
+#content h3 {
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
-p {
-	font-family: 'MyWebFont';
+#content p {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 9pt;
 }
 /* This creates a boarder around my text */
 #border {
