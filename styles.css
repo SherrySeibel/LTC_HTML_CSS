@@ -2,9 +2,9 @@
 body {
 	text-align: center;
 	padding-top: 20%
-	font-fanily: ;
+	font-family: Chalkduster src="Chalkduster.ttf" ;
 	position: relative;
-	left: 60%;
+	left: 33%;
 	top: 15%;
 }
 
@@ -19,16 +19,6 @@ body {
 	background: rgba(0, 0, 0, 0.45); /* This makes the background opaque */
 	margin: center;
 	position: relative;
-}
-
-/* I don't know if this is doing anything */
-body div #icons {
-	position: relative;
-	border-top: right;
-	border-left: center;
-	border-bottom: center;
-	border-right: center;
-
 }
 
 /*This is setting up the background image for the entire web page*/
