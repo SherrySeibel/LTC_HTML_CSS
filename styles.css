@@ -1,13 +1,27 @@
+
+/*Trying to add a specific font but am having trouble...*/
+@font-face {
+  	font-family: 'MyWebFont';
+  	src: url("//fonts.googleapis.com/css?family=Gloria+Hallelujah:400");
+}
+
 /* This styles the content of my page */
 body {
 	text-align: center;
 	padding-top: 20%
-	font-family: Chalkduster src="Chalkduster.ttf" ;
+	font-family: "MyWebFont";
 	position: relative;
 	left: 33%;
 	top: 15%;
 }
 
+h2 {
+	font-family: 'MyWebFont';
+}
+
+p {
+	font-family: 'MyWebFont';
+}
 /* This creates a boarder around my text */
 #border {
 	border: 1px solid;
