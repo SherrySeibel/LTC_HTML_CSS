@@ -8,7 +8,7 @@ body {
 	top: 5%;
 }
 
-/* cuastomizing fonts */
+/* customizing fonts */
 
 #content h3 {
 	font-family: 'Gloria Hallelujah', cursive;
@@ -19,11 +19,6 @@ body {
 	font-size: 9pt;
 }
 
-/* emphasizing a word */
-
-#content p span {
-	font-weight: bolder;
-}
 /* This creates a boarder around my text */
 #border {
 	border: 1px solid;
